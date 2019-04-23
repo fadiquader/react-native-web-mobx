@@ -15,7 +15,11 @@
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
     "isolatedModules": true,
+    "strictFunctionTypes": false,
+    "skipDefaultLibCheck": true,
     "noEmit": true,
     "jsx": "preserve"
   },
